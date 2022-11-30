@@ -419,9 +419,9 @@ ic2=0;
 rng('shuffle')
 
 load parscan_ppMISA_OR_R1.mat
-parM=ppMISA_OR_dataR.para_iso;
+parM=ppMISA_OR_dataR.para_mush;
 
-% parM=ppMI_OR_dataR.para_iso and kk=12 for phase dia of isola
+% parM=ppMI_OR_dataR.para_mush and kk=7 for phase dia of isola
 % parM=ppMI_OR_dataR.para_invmush and kk=12 for phase dia of inv-isola
 
 nr=size(parM,1);                    % no. of parameter combinations
@@ -451,7 +451,7 @@ Val_gba=ones(dim1,dim2)*NaN;
 Val_gab=ones(dim1,dim2)*NaN;
 
 for kk=1:1               % loop for parameters
-    kk=12
+    kk=7
     ga0=parM(kk,1);
     gas=parM(kk,2);
     gab=parM(kk,3);
