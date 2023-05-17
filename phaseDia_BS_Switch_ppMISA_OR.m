@@ -421,8 +421,8 @@ rng('shuffle')
 load parscan_ppMISA_OR_R1.mat
 parM=ppMISA_OR_dataR.para_mush;
 
-% parM=ppMI_OR_dataR.para_mush and kk=7 for phase dia of isola
-% parM=ppMI_OR_dataR.para_invmush and kk=12 for phase dia of inv-isola
+% parM=ppMISA_OR_dataR.para_mush and kk=7 for phase dia of isola
+% parM=ppMISA_OR_dataR.para_invmush and kk=12 for phase dia of inv-isola
 
 nr=size(parM,1);                    % no. of parameter combinations
 
